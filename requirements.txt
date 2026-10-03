@@ -1,0 +1,14 @@
+# Kakao Contact Automation
+
+This project is a Python-based automation scaffold for KakaoTalk PC workflows.
+
+- Python 3.10+
+- Tkinter GUI
+- OpenPyXL for Excel
+- PyInstaller for EXE packaging
+
+Required packages:
+
+```bash
+pip install -r requirements.txt
+```

@@ -1,0 +1,19 @@
+import os
+import subprocess
+
+
+def build():
+    command = [
+        "pyinstaller",
+        "--onefile",
+        "--windowed",
+        "--name",
+        "kakao_macro_app",
+        "app.py",
+    ]
+    subprocess.run(command, check=True)
+
+
+if __name__ == "__main__":
+    build()
+    print("EXE 빌드 완료")
