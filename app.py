@@ -1,3 +1,7 @@
-pyinstaller>=6.0.0
-openpyxl>=3.11.0
-pandas>=2.2.0
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from gui import create_app
+
+if __name__ == "__main__":
+    create_app()
